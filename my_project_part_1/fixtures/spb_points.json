@@ -1,0 +1,44 @@
+[
+  {
+    "model": "along_neva_channels.point",
+    "pk": 1,
+    "fields": {
+      "name": "Канал Грибоедова"
+    }
+  },
+  {
+    "model": "along_neva_channels.point",
+    "pk": 2,
+    "fields": {
+      "name": "Синий мост"
+    }
+  },
+    {
+    "model": "along_neva_channels.point",
+    "pk": 3,
+    "fields": {
+      "name": "Дворцовая наб."
+    }
+  },
+    {
+    "model": "along_neva_channels.point",
+    "pk": 4,
+    "fields": {
+      "name": "Фонтанка 38"
+    }
+  },
+    {
+    "model": "along_neva_channels.point",
+    "pk": 5,
+    "fields": {
+      "name": "Крюков канал"
+    }
+  },
+    {
+    "model": "along_neva_channels.point",
+    "pk": 6,
+    "fields": {
+      "name": "Зимняя канавка"
+    }
+  }
+]

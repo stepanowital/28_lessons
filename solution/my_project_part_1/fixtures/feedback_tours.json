@@ -1,0 +1,32 @@
+[
+  {
+    "model": "feedback.tour",
+    "pk": 1,
+    "fields": {
+      "title": "Осенний Петербург",
+      "description": "Прекрасный осенний Питер",
+      "city": 1,
+      "attractions": "Очень много!"
+    }
+  },
+  {
+    "model": "feedback.tour",
+    "pk": 2,
+    "fields": {
+      "title": "Водопады Карелии",
+      "description": "Тур по к водопадам Кивач",
+      "city": 2,
+      "attractions": "Живописная природа Карелии!"
+    }
+  },
+    {
+    "model": "feedback.tour",
+    "pk": 3,
+    "fields": {
+      "title": "Камчатские гейзеры",
+      "description": "Прогулка по долине гейзеров Камчатки",
+      "city": 3,
+      "attractions": "Уникальные места на Камчатке"
+    }
+  }
+]

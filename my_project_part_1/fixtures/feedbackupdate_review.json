@@ -1,0 +1,14 @@
+[
+  {
+    "model": "forgotten.review",
+    "pk": 1,
+    "fields": {
+      "author": "Валерий Петров",
+      "tour": 1,
+      "content": "Очень понравился Осенний Питер",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  }
+]

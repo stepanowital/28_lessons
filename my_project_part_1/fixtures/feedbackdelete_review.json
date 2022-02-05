@@ -1,0 +1,134 @@
+[
+  {
+    "model": "moderation.review",
+    "pk": 1,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 2,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 3,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 4,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 5,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 6,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 7,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 8,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 9,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 10,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  },
+  {
+    "model": "moderation.review",
+    "pk": 11,
+    "fields": {
+      "author": "spam",
+      "tour": 1,
+      "content": "spam",
+      "rate": 1,
+      "is_published": true,
+      "published_at": "2022-01-10 10:30:00"
+    }
+  }
+]

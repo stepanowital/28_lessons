@@ -1,0 +1,18 @@
+[
+  {
+    "model": "discounts.tour",
+    "pk": 1,
+    "fields": {
+      "name": "Средиземноморский тур",
+      "author": "Иван Петров"
+    }
+  },
+  {
+    "model": "discounts.tour",
+    "pk": 2,
+    "fields": {
+      "name": "Южные города России",
+      "author": "Елена Штольц"
+    }
+  }
+]

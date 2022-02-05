@@ -1,0 +1,23 @@
+[
+  {
+    "model": "moderation.city",
+    "pk": 1,
+    "fields": {
+      "name": "Санкт-Петербург"
+    }
+  },
+  {
+    "model": "moderation.city",
+    "pk": 2,
+    "fields": {
+      "name": "Петрозаводск"
+    }
+  },
+    {
+    "model": "moderation.city",
+    "pk": 3,
+    "fields": {
+      "name": "Петропавловск-Камчатский"
+    }
+  }
+]

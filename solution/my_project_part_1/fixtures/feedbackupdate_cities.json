@@ -1,0 +1,23 @@
+[
+  {
+    "model": "forgotten.city",
+    "pk": 1,
+    "fields": {
+      "name": "Санкт-Петербург"
+    }
+  },
+  {
+    "model": "forgotten.city",
+    "pk": 2,
+    "fields": {
+      "name": "Петрозаводск"
+    }
+  },
+    {
+    "model": "forgotten.city",
+    "pk": 3,
+    "fields": {
+      "name": "Петропавловск-Камчатский"
+    }
+  }
+]
