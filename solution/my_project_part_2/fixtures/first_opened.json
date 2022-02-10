@@ -1,0 +1,98 @@
+[
+  {
+    "model": "first_opened.city",
+    "pk": 1,
+    "fields": {
+        "name": "Санкт-Петербург",
+        "status": "open"
+    }
+  },
+  {
+    "model": "first_opened.city",
+    "pk": 2,
+    "fields": {
+        "name": "Москва",
+        "status": "open"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 3,
+    "fields": {
+        "name": "Самара",
+        "status": "open"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 4,
+    "fields": {
+        "name": "Сочи",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 5,
+    "fields": {
+        "name": "Челябинск",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 6,
+    "fields": {
+        "name": "Казань",
+        "status": "open"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 7,
+    "fields": {
+        "name": "Владивосток",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 8,
+    "fields": {
+        "name": "Чебоксары",
+        "status": "open"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 9,
+    "fields": {
+        "name": "Нижний Новгород",
+        "status": "open"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 10,
+    "fields": {
+        "name": "Петрозаводск",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 11,
+    "fields": {
+        "name": "Мурманск",
+        "status": "open"
+    }
+  },
+    {
+    "model": "first_opened.city",
+    "pk": 12,
+    "fields": {
+        "name": "Архангельск",
+        "status": "open"
+    }
+  }
+]

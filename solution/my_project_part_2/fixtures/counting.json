@@ -1,0 +1,258 @@
+[
+  {
+    "model": "counting_rhyme.city",
+    "pk": 1,
+    "fields": {
+        "name": "Санкт-Петербург",
+        "status": "open"
+    }
+  },
+  {
+    "model": "counting_rhyme.city",
+    "pk": 2,
+    "fields": {
+        "name": "Москва",
+        "status": "open"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 3,
+    "fields": {
+        "name": "Самара",
+        "status": "open"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 4,
+    "fields": {
+        "name": "Сочи",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 5,
+    "fields": {
+        "name": "Челябинск",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 6,
+    "fields": {
+        "name": "Казань",
+        "status": "open"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 7,
+    "fields": {
+        "name": "Владивосток",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 8,
+    "fields": {
+        "name": "Чебоксары",
+        "status": "open"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 9,
+    "fields": {
+        "name": "Нижний Новгород",
+        "status": "open"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 10,
+    "fields": {
+        "name": "Петрозаводск",
+        "status": "closed"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 11,
+    "fields": {
+        "name": "Мурманск",
+        "status": "open"
+    }
+  },
+    {
+    "model": "counting_rhyme.city",
+    "pk": 12,
+    "fields": {
+        "name": "Архангельск",
+        "status": "open"
+    }
+  },
+  {
+    "model": "counting_rhyme.user",
+    "pk": 1,
+    "fields": {
+        "username": "petya",
+        "city": 1
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 2,
+    "fields": {
+        "username": "karina",
+        "city": 1
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 3,
+    "fields": {
+        "username": "razor",
+        "city": 1
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 4,
+    "fields": {
+        "username": "solomka",
+        "city": 1
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 5,
+    "fields": {
+        "username": "ira",
+        "city": 3
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 6,
+    "fields": {
+        "username": "sonya",
+        "city": 2
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 7,
+    "fields": {
+        "username": "veron",
+        "city": 7
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 8,
+    "fields": {
+        "username": "solovey",
+        "city": 4
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 9,
+    "fields": {
+        "username": "skyuser",
+        "city": 2
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 10,
+    "fields": {
+        "username": "admin",
+        "city": 12
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 11,
+    "fields": {
+        "username": "petya777",
+        "city": 6
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 12,
+    "fields": {
+        "username": "ivan",
+        "city": 2
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 13,
+    "fields": {
+        "username": "solya",
+        "city": 11
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 14,
+    "fields": {
+        "username": "zima",
+        "city": 4
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 15,
+    "fields": {
+        "username": "volk",
+        "city": 2
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 16,
+    "fields": {
+        "username": "monkey",
+        "city": 10
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 17,
+    "fields": {
+        "username": "piter",
+        "city": 2
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 18,
+    "fields": {
+        "username": "john",
+        "city": 7
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 19,
+    "fields": {
+        "username": "david",
+        "city": 6
+    }
+  },
+    {
+    "model": "counting_rhyme.user",
+    "pk": 20,
+    "fields": {
+        "username": "sergey",
+        "city": 4
+    }
+  }
+]
