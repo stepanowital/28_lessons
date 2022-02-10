@@ -1,0 +1,86 @@
+[
+  {
+    "model": "reforms.city",
+    "pk": 1,
+    "fields": {
+        "name": "Санкт-Петербург"
+    }
+  },
+  {
+    "model": "reforms.city",
+    "pk": 2,
+    "fields": {
+        "name": "Москва"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 3,
+    "fields": {
+        "name": "Самара"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 4,
+    "fields": {
+        "name": "Сочи"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 5,
+    "fields": {
+        "name": "Челябинск"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 6,
+    "fields": {
+        "name": "Казань"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 7,
+    "fields": {
+        "name": "Владивосток"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 8,
+    "fields": {
+        "name": "Чебоксары"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 9,
+    "fields": {
+        "name": "Нижний Новгород"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 10,
+    "fields": {
+        "name": "Петрозаводск"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 11,
+    "fields": {
+        "name": "Мурманск"
+    }
+  },
+    {
+    "model": "reforms.city",
+    "pk": 12,
+    "fields": {
+        "name": "Архангельск"
+    }
+  }
+]

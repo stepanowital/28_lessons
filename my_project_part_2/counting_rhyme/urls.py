@@ -1,8 +1,7 @@
-
 from django.urls import path
 
-from first_opened.views import CityListView
+from counting_rhyme.views import CountView
 
 urlpatterns = [
-   path("first_opened/", CityListView.as_view()),
+    path("counting/", CountView.as_view()),
 ]

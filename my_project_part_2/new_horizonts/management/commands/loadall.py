@@ -8,13 +8,9 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # cars fixtures:
-        os.system("python manage.py loaddata fixtures/tours.json")
-        os.system("python manage.py loaddata fixtures/spb_points.json")
-        os.system("python manage.py loaddata fixtures/feedback_cities.json")
-        os.system("python manage.py loaddata fixtures/feedback_tours.json")
-        os.system("python manage.py loaddata fixtures/feedbackupdate_cities.json")
-        os.system("python manage.py loaddata fixtures/feedbackupdate_tours.json")
-        os.system("python manage.py loaddata fixtures/feedbackupdate_review.json")
-        os.system("python manage.py loaddata fixtures/feedbackdelete_cities.json")
-        os.system("python manage.py loaddata fixtures/feedbackdelete_tours.json")
-        os.system("python manage.py loaddata fixtures/feedbackdelete_review.json")
+        os.system("python manage.py loaddata fixtures/reforms.json")
+        os.system("python manage.py loaddata fixtures/alphabet.json")
+        os.system("python manage.py loaddata fixtures/first_opened.json")
+        os.system("python manage.py loaddata fixtures/pages.json")
+        os.system("python manage.py loaddata fixtures/counting.json")
+        os.system("python manage.py loaddata fixtures/users_geography.json")

@@ -1,8 +1,7 @@
-
 from django.urls import path
 
-from first_opened.views import CityListView
+from pages.views import CityListView
 
 urlpatterns = [
-   path("pages/", CityListView.as_view()),
+    path("pages/", CityListView.as_view()),
 ]

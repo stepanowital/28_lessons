@@ -1,8 +1,7 @@
-
 from django.urls import path
 
-from new_horizonts.views import CityCreateView
+from alphabet.views import CityListView
 
 urlpatterns = [
-   path("new_horizonts/", CityCreateView.as_view()),
+    path("alphabet/", CityListView.as_view()),
 ]

@@ -1,8 +1,7 @@
-
 from django.urls import path
 
-from alphabet.views import CityListView
+from first_opened.views import CityListView
 
 urlpatterns = [
-   path("alphabet/", CityListView.as_view()),
+    path("first_opened/", CityListView.as_view()),
 ]

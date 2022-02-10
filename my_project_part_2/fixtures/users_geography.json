@@ -1,6 +1,6 @@
 [
   {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 1,
     "fields": {
         "name": "Санкт-Петербург",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 2,
     "fields": {
         "name": "Москва",
@@ -16,7 +16,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 3,
     "fields": {
         "name": "Самара",
@@ -24,7 +24,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 4,
     "fields": {
         "name": "Сочи",
@@ -32,7 +32,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 5,
     "fields": {
         "name": "Челябинск",
@@ -40,7 +40,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 6,
     "fields": {
         "name": "Казань",
@@ -48,7 +48,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 7,
     "fields": {
         "name": "Владивосток",
@@ -56,7 +56,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 8,
     "fields": {
         "name": "Чебоксары",
@@ -64,7 +64,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 9,
     "fields": {
         "name": "Нижний Новгород",
@@ -72,7 +72,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 10,
     "fields": {
         "name": "Петрозаводск",
@@ -80,7 +80,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 11,
     "fields": {
         "name": "Мурманск",
@@ -88,7 +88,7 @@
     }
   },
     {
-    "model": "counting_rhyme.city",
+    "model": "users_geography.city",
     "pk": 12,
     "fields": {
         "name": "Архангельск",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 1,
     "fields": {
         "username": "petya",
@@ -104,7 +104,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 2,
     "fields": {
         "username": "karina",
@@ -112,7 +112,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 3,
     "fields": {
         "username": "razor",
@@ -120,7 +120,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 4,
     "fields": {
         "username": "solomka",
@@ -128,7 +128,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 5,
     "fields": {
         "username": "ira",
@@ -136,7 +136,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 6,
     "fields": {
         "username": "sonya",
@@ -144,7 +144,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 7,
     "fields": {
         "username": "veron",
@@ -152,7 +152,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 8,
     "fields": {
         "username": "solovey",
@@ -160,7 +160,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 9,
     "fields": {
         "username": "skyuser",
@@ -168,7 +168,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 10,
     "fields": {
         "username": "admin",
@@ -176,7 +176,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 11,
     "fields": {
         "username": "petya777",
@@ -184,7 +184,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 12,
     "fields": {
         "username": "ivan",
@@ -192,7 +192,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 13,
     "fields": {
         "username": "solya",
@@ -200,7 +200,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 14,
     "fields": {
         "username": "zima",
@@ -208,7 +208,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 15,
     "fields": {
         "username": "volk",
@@ -216,7 +216,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 16,
     "fields": {
         "username": "monkey",
@@ -224,7 +224,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 17,
     "fields": {
         "username": "piter",
@@ -232,7 +232,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 18,
     "fields": {
         "username": "john",
@@ -240,7 +240,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 19,
     "fields": {
         "username": "david",
@@ -248,7 +248,7 @@
     }
   },
     {
-    "model": "counting_rhyme.user",
+    "model": "users_geography.user",
     "pk": 20,
     "fields": {
         "username": "sergey",
