@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "new_horizonts",
+    "reforms",
     "alphabet",
     "first_opened",
     "pages",
