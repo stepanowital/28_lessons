@@ -13,8 +13,8 @@ class Tour(models.Model):
 
 
 class Review(models.Model):
-    # TODO author  Имя пользователя  Короткий текст
-    # TODO tour  Экскурсия Связь с моделью Tour
+    # TODO author  Имя пользователя  Короткий текст (максимальная длинна 20 символов)
+    # TODO tour  Экскурсия Связь с моделью Tour (foreign key c каскадным удалением)
     # TODO content  Текст отзыва Длинный текст
     # TODO rate  Звездочки Маленькое целое число
     # TODO published_at  Время публикации  Дата и время
