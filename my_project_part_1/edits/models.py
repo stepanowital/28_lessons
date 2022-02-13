@@ -27,11 +27,11 @@ class Tour(models.Model):
     description = models.TextField()
     city = models.ForeignKey(City, on_delete=models.CASCADE)
     # TODO дополните модель следующими данными:
-    # TODO guide Гид Связь с моделью Guide
+    # TODO guide Гид Связь с моделью Guide (foreign key с каскадным удалением)
     # TODO attractions Достопримечательности M2M поле
     # TODO language  Язык, например ru / en / jp  Короткий текст (2) (выбор)
     # TODO price_rur Цена в рублях, например 1200 Десятичное число
-    # TODO start_point Точка начала  Короткий текст
-    # TODO end_point Точка завершения  Короткий текст
-    # TODO children_ok Можно детям или с детьми  Логическое
+    # TODO start_point Точка начала  Короткий текст (20)
+    # TODO end_point Точка завершения  Короткий текст (20)
+    # TODO children_ok Можно детям или с детьми  Логическое, по умолчанию true
     # TODO group_size  Размер группы Маленькое число
