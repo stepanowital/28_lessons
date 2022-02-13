@@ -1,20 +1,26 @@
 import os
 
 from django.core.management.base import BaseCommand
+from django.core.management import call_command
 
 
 class Command(BaseCommand):
-    help = "Create fixtures from json file," "createfixtures [filename] [app.model]"
+    help = "Loads fixtures from fixtures dir"
+    fixtures_dir = 'fixtures'
+    loaddata_command = 'loaddata'
+    filenames = [
+        "tours.json",
+        "spb_points.json",
+        "feedback_cities.json",
+        "feedback_tours.json",
+        "feedbackupdate_cities",
+        "feedbackupdate_tours",
+        "feedbackupdate_review",
+        "feedbackdelete_cities",
+        "feedbackdelete_tours",
+        "feedbackdelete_review",
+    ]
 
     def handle(self, *args, **options):
-        # cars fixtures:
-        os.system("python manage.py loaddata fixtures/tours.json")
-        os.system("python manage.py loaddata fixtures/spb_points.json")
-        os.system("python manage.py loaddata fixtures/feedback_cities.json")
-        os.system("python manage.py loaddata fixtures/feedback_tours.json")
-        os.system("python manage.py loaddata fixtures/feedbackupdate_cities.json")
-        os.system("python manage.py loaddata fixtures/feedbackupdate_tours.json")
-        os.system("python manage.py loaddata fixtures/feedbackupdate_review.json")
-        os.system("python manage.py loaddata fixtures/feedbackdelete_cities.json")
-        os.system("python manage.py loaddata fixtures/feedbackdelete_tours.json")
-        os.system("python manage.py loaddata fixtures/feedbackdelete_review.json")
+        for fixture_filename in self.filenames:
+            call_command(self.loaddata_command, os.path.join(self.fixtures_dir, fixture_filename))
