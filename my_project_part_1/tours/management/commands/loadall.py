@@ -9,10 +9,10 @@ class Command(BaseCommand):
     fixtures_dir = 'fixtures'
     loaddata_command = 'loaddata'
     filenames = [
-        "tours.json",
-        "spb_points.json",
-        "feedback_cities.json",
-        "feedback_tours.json",
+        "tours",
+        "spb_points",
+        "feedback_cities",
+        "feedback_tours",
         "feedbackupdate_cities",
         "feedbackupdate_tours",
         "feedbackupdate_review",
@@ -23,4 +23,4 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         for fixture_filename in self.filenames:
-            call_command(self.loaddata_command, os.path.join(self.fixtures_dir, fixture_filename))
+            call_command(self.loaddata_command, os.path.join(self.fixtures_dir, f"{fixture_filename}.json"))
