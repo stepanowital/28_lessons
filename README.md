@@ -100,7 +100,7 @@ Installed 11 object(s) from 1 fixture(s)
 
 ### Задание discounts ("Скидочки")
 Дана следующая документация
-#### GET /discount
+#### GET /discount/
 ```json
 [
  {
@@ -123,7 +123,7 @@ Installed 11 object(s) from 1 fixture(s)
   }
 ]
 ```
-#### GET /discount/1
+#### GET /discount/1/
 ```json
 {
    "id": 1,
@@ -168,7 +168,7 @@ Installed 11 object(s) from 1 fixture(s)
 ]
 ```
  
-#### GET /neva_tours/1
+#### GET /neva_tours/1/
 ```json
  {
      "id": 1,

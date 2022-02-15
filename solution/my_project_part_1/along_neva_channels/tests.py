@@ -44,7 +44,7 @@ class PointFactory(factory.django.DjangoModelFactory):
 
 
 TOURS_LIST = "/neva_tours/"
-GET_TOUR = "/neva_tours/4"
+GET_TOUR = "/neva_tours/4/"
 
 
 def get_test_queryset(url):

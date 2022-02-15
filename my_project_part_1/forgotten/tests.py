@@ -41,7 +41,7 @@ class CityFactory(factory.django.DjangoModelFactory):
     name = "test_city"
 
 
-UPDATE_FEEDBACK = "/feedback-update/1"
+UPDATE_FEEDBACK = "/feedback-update/1/"
 
 
 class ModelTestCase(TestCase, DataBaseTestsMixin, ResponseTestsMixin):

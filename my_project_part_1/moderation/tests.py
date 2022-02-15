@@ -33,7 +33,7 @@ class CityFactory(factory.django.DjangoModelFactory):
     name = "test_city"
 
 
-DELETE_FEEDBACK = "/feedback-delete/1"
+DELETE_FEEDBACK = "/feedback-delete/1/"
 
 
 class ModelTestCase(TestCase, DataBaseTestsMixin, ResponseTestsMixin):

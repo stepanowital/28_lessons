@@ -38,7 +38,7 @@ class TourFactory(factory.django.DjangoModelFactory):
 
 
 DISCOUNTS_LIST = "/discount/"
-GET_DISCOUNT = "/discount/4"
+GET_DISCOUNT = "/discount/4/"
 
 
 def get_test_queryset(url):

@@ -18,7 +18,7 @@ class TourListView(ListView):
                     "name": tour.name,
                     "starts_at": tour.starts_at if tour.starts_at else "",
                     "ends_at": tour.ends_at if tour.ends_at else "",
-                    "points": list(tour.points.all().values_list("name", flat=True)),
+                    "points": [{"name": point.name} for point in tour.points.all()],
                 }
             )
         return JsonResponse(response, safe=False)
