@@ -13,12 +13,16 @@ class Discount(models.Model):
     DISCOUNT = "discount"
     CATEGORIES = [(PROMO, "Промокод"), (CAMPAIGN, "Акция"), (DISCOUNT, "Скидка")]
 
+    tour = models.ForeignKey(Tour, on_delete=models.CASCADE, null=True)
     category = models.CharField(max_length=8, choices=CATEGORIES, default=PROMO)
     # TODO дополните модель данными в соответствии со спецификацией
-
+    discount = models.SmallIntegerField(null=True)
+    code = models.CharField(max_length=50, null=True)
+    starts_at = models.DateTimeField(null=True)
+    ends_at = models.DateTimeField(null=True)
 
 # TODO после внесения соответствующих изменений в модель
-# TODO Вам будет необходимо сформировать миграции (python3 manage.py makemigrations)
+# TODO Вам будет необходимо сформировать миграции (python manage.py makemigrations)
 # TODO а также внести изменения в БД с помощью команды python3 manage.py migrate
 # такие команды необходимо применять после каждого внесения изменений в модель
 # кроме того, при дополнении таблицы полем, у которого нет значения по умолчанию

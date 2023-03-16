@@ -26,12 +26,20 @@ class Tour(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
     city = models.ForeignKey(City, on_delete=models.CASCADE)
-    # TODO дополните модель следующими данными:
-    # TODO guide Гид Связь с моделью Guide (foreign key с каскадным удалением)
-    # TODO attractions Достопримечательности M2M поле
-    # TODO language  Язык, например ru / en / jp  Короткий текст (2) (выбор)
-    # TODO price_rur Цена в рублях, например 1200 Десятичное число
-    # TODO start_point Точка начала  Короткий текст (20)
-    # TODO end_point Точка завершения  Короткий текст (20)
-    # TODO children_ok Можно детям или с детьми  Логическое, по умолчанию true
+    # ODO дополните модель следующими данными:
+    # ODO guide Гид Связь с моделью Guide (foreign key с каскадным удалением)
+    guide = models.ForeignKey(Guide, on_delete=models.CASCADE)
+    # ODO attractions Достопримечательности M2M поле
+    attractions = models.ManyToManyField(Attractions)
+    # ODO language  Язык, например ru / en / jp  Короткий текст (2) (выбор)
+    language = models.CharField(max_length=2, choices=LANGUAGES, default='ru')
+    # ODO price_rur Цена в рублях, например 1200 Десятичное число
+    price_rur = models.DecimalField(decimal_places=2, max_digits=10)
+    # ODO start_point Точка начала  Короткий текст (20)
+    start_point = models.CharField(max_length=20)
+    # ODO end_point Точка завершения  Короткий текст (20)
+    end_point = models.CharField(max_length=20)
+    # ODO children_ok Можно детям или с детьми  Логическое, по умолчанию true
+    children_ok = models.BooleanField(default=True)
     # TODO group_size  Размер группы Маленькое число
+    group_size = models.SmallIntegerField()
