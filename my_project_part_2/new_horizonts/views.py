@@ -14,12 +14,7 @@ class CityCreateView(CreateView):
 
     def post(self, request, *args, **kwargs):
         city_data = json.loads(request.body)
-        try:
-            city = City.objects.get(name=city_data["name"])
-        except City.DoesNotExist:
-            city = City.objects.create(
-                name=city_data["name"]
-            )
+        city, _ = City.objects.get_or_create(name=city_data["name"])
 
         return JsonResponse({
             "id": city.id,

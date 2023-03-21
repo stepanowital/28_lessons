@@ -1,3 +1,4 @@
+from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.views.generic import ListView
 
@@ -15,12 +16,23 @@ class CityListView(ListView):
     def get(self, request, *args, **kwargs):
         super().get(request, *args, **kwargs)
 
+        paginator = Paginator(self.object_list, TOTAL_ON_PAGE)
+        page_number = int(request.GET.get("page", 1))
+
+        page_obj = paginator.get_page(page_number)
+
         cities = []
-        for city in self.object_list:
+        for city in page_obj:
             cities.append({
                 "id": city.id,
                 "name": city.name,
                 "status": city.status,
             })
 
-        return JsonResponse(cities, safe=False)
+        response = {
+            "total": paginator.count,
+            "num_pages": paginator.num_pages,
+            "items": cities
+        }
+
+        return JsonResponse(response, safe=False, json_dumps_params={"ensure_ascii": False, "indent": 4})

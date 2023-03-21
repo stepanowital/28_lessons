@@ -20,6 +20,8 @@ class CityListView(ListView):
     def get(self, request, *args, **kwargs):
         super().get(request, *args, **kwargs)
 
+        self.object_list = self.object_list.order_by("-status", "name")
+
         cities = []
         for city in self.object_list:
             cities.append({
@@ -28,4 +30,4 @@ class CityListView(ListView):
                 "status": city.status,
             })
 
-        return JsonResponse(cities, safe=False)
+        return JsonResponse(cities, safe=False, json_dumps_params={"ensure_ascii": False, "indent": 4})
